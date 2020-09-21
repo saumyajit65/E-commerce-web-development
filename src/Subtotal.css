@@ -1,0 +1,31 @@
+.subtotal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 300px;
+  height: 100px;
+  padding: 20px;
+  background-color: lightgrey;
+  border: 0.5px;
+  border-radius: 0.5px;
+}
+
+.subtotal_gift {
+  display: flex;
+  align-items: center;
+}
+/*this part is for my wish to have a small space between check box and the text ("the order contains a gift"*/
+.subtotal_gift > input {
+  margin-right: 5px;
+}
+/*some adjustments to the created button part*/
+.subtotal > button {
+  background: orange;
+  border-radius: 2px;
+  width: 100%;
+  height: 30px;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: lightyellow lightcyan;
+  color: black;
+}

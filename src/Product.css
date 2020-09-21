@@ -1,0 +1,53 @@
+.product {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(235, 238, 228);
+  align-items: center;
+  box-decoration-break: slice;
+  margin: 30px;
+  padding: 20px;
+  min-height: 100px;
+  max-height: 400px;
+  z-index: 1;
+  width: 100%;
+  border-radius: 20px 20px 20px 20px;
+  box-shadow: 0px 10px 18px -6px black;
+  overflow: hidden;
+}
+
+.product:hover {
+  box-shadow: 0 0 11px rgba(207, 1, 1, 0.9);
+}
+
+.product > img {
+  max-height: 200px;
+  width: 100%;
+  object-fit: contain;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+/*it shall show all the stars in a row than vertically*/
+.product_rating {
+  display: flex;
+  color: gold;
+}
+
+.product_info {
+  height: 100%;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.product_price {
+  margin-top: 5px;
+}
+
+.product > button {
+  background: rgb(207, 210, 211);
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: gray goldenrod;
+  color: black;
+}
