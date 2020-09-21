@@ -15,7 +15,7 @@ import { Elements } from "@stripe/react-stripe-js";
 import Orders from "./Orders";
 
 const promise = loadStripe(
-  "pk_test_51HT1hLIiXgKppsupYX4orFtCWIJyafwDZJPYcU5ULfPrXi0LfU95SXsoMBk4Wz1eIEgaihjw0tVSbZxpSMI2MECw00C7xIeG0M"
+ **************************************************************************get key from strip*****************************************
 ); //secret key is in index.js in functions
 
 function App() {
